@@ -1,0 +1,62 @@
+@import 'mixins';
+
+$secondary: white;
+$red: red;
+
+body{
+    background: $secondary;
+}
+.cards{
+    background: $secondary;
+    min-height: 80vh;
+    width: 60vh;
+}
+
+.high{
+    height: 30vh;
+    width: 100%;
+    img{
+        width: 100%;
+        height: auto;
+    }
+    text-align: center;
+   
+    
+}
+
+
+.txt-center{
+    text-align: center;
+    padding-top: 12em;
+    
+    
+    p{
+        color: $red;
+
+    }
+    
+}
+
+
+.low{
+    height: 60vh;
+    background: white;
+    width: 100%;
+    &:hover{
+        transform: translateY(-100px);
+        visibility: visible;
+    }
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16);
+    text-align: center;
+
+    
+     
+}
+
+.hidden {
+   
+   
+    @include visuallyhidden;
+      
+  }
+

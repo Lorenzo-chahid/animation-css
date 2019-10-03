@@ -1,0 +1,118 @@
+/* line 6, ../sass/cards.scss */
+body {
+  background: white;
+}
+
+/* line 9, ../sass/cards.scss */
+.cards {
+  background: white;
+  min-height: 80vh;
+  width: 60vh;
+}
+
+/* line 15, ../sass/cards.scss */
+.high {
+  height: 30vh;
+  width: 100%;
+  text-align: center;
+}
+/* line 18, ../sass/cards.scss */
+.high img {
+  width: 100%;
+  height: auto;
+}
+
+/* line 28, ../sass/cards.scss */
+.txt-center {
+  text-align: center;
+  padding-top: 12em;
+}
+/* line 33, ../sass/cards.scss */
+.txt-center p {
+  color: red;
+}
+
+/* line 41, ../sass/cards.scss */
+.low {
+  height: 60vh;
+  background: white;
+  width: 100%;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  text-align: center;
+}
+/* line 45, ../sass/cards.scss */
+.low:hover {
+  transform: translateY(-100px);
+  visibility: visible;
+}
+
+/* line 56, ../sass/cards.scss */
+.hidden {
+  margin: -1px;
+  padding: 0;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip: rect(0, 0, 0, 0);
+  position: absolute;
+}
+
+/* line 7, ../sass/style.scss */
+body {
+  background: black;
+  min-height: 100vh;
+  width: 100%;
+}
+
+/* line 13, ../sass/style.scss */
+.bcards {
+  background-color: white;
+}
+
+/* line 16, ../sass/style.scss */
+h3 {
+  text-transform: uppercase;
+}
+
+/* line 19, ../sass/style.scss */
+.container {
+  min-height: 100vh;
+  width: 50%;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* line 23, ../sass/style.scss */
+.animation {
+  border: 4px solid white;
+  padding: 20px;
+  color: white;
+}
+/* line 16, ../sass/mixins.scss */
+.animation:hover {
+  background: white;
+  color: black;
+}
+/* line 25, ../sass/style.scss */
+.animation:hover {
+  transform: translate(300px) scale(2);
+}
+
+/* line 31, ../sass/style.scss */
+.photo {
+  color: red;
+  border: 4px solid white;
+  padding: 20px;
+  color: white;
+  border-color: red;
+  float: left;
+  margin-bottom: 2em;
+}
+/* line 16, ../sass/mixins.scss */
+.photo:hover {
+  background: white;
+  color: black;
+}
